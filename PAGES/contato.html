@@ -25,7 +25,22 @@
 
         <!-- CONTEÚDO DA PÁGINA DO SITE -->
         <main>
-
+                <section id="containerFormContato">
+                        <h1>Fale com a EduTech</h1>
+                        <p>Tem dúvidas sobre nossos cursos? Escreva sua mensagem</p>
+                        <form id="formContato">
+                            <label for="nomeContato">Nome completo</label>
+                            <input id="nomeContato" type="text" required>
+                            <br>
+                            <label for="emailContato">E-mail</label>
+                            <input id="emailContato" type="email" required>
+                            <br>
+                            <label for="mensagemContato">Mensagem</label>
+                            <textarea id="mensagemContato" rows="5"  minlength="50"></textarea>
+                            <br>
+                            <button type="submit">Enviar Mensagem</button>
+                        </form>
+                </section>
             
         </main>
 
