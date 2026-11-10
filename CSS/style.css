@@ -1,0 +1,177 @@
+/*CONFIGURACOES GERAIS*/
+
+body{
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    color: #222;
+    background-color: #ffffff;
+
+}
+
+h1{
+    color: #1a4db3;
+    text-align: center;
+}
+
+h2{
+    color: #1a4db3;
+    text-align: center;
+}
+
+h3{
+    color: #1a4db3;
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/*CABECALHO E MENU*/
+
+header{
+     background-color: #1a4db3;
+     color: white;
+     padding: 20px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span{
+     color: #ff6a00;
+}
+
+nav.menu{
+    text-align: center; margin-top: 10px;
+}
+
+nav.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav.menu a:hover{
+    color: #ff6a00;
+}
+
+/*SECAO PRINCIPAL*/
+
+.hero{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: 36px;
+    color: #1a4db3;
+}
+
+.hero p{
+    font-size: 18px;
+    font-size: 18px;
+}
+
+.btn-primario{
+    display: inline-block;
+    background-color: #ff6a00;
+    color: white; padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn-secundario{
+    display: inline-block;
+    background-color: white;
+    color: #1a4db3;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #1a4db3;
+}
+
+.btn-primario:hover, .btn-secundario:hover{
+    opacity: 0.8;
+}
+
+.destaques{
+    padding: 30px 20px;
+}
+
+.card{
+     background-color: white;
+     padding: 20px;
+     margin: 12px 0;
+     border: 1px solid #dddddd;
+     border-radius: 8px;
+}
+
+footer{
+    background-color: #1a4db3; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a{
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+.sobre{
+     padding: 30px 20px; 
+}
+
+.valores-lista{ 
+    list-style: none;
+    padding: 0;
+}
+
+.valores-lista li{
+     padding: 6px 0;
+}
+
+.curso{
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.curso img{
+    max-width: 100%;
+    height: auto;
+}
+
+input, textarea{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus{
+     outline: 2px solid #1a4db3;
+     outline-offset: 2px;
+}
+
+button{
+    background-color: #ff6a00;
+    color: white; padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+     cursor: pointer;
+}
