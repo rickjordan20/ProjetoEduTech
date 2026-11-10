@@ -5,13 +5,15 @@
         <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width-device-width,initial-scale=1.0"> 
             <!--Aplica responsividade no site - adapta pra telas menores-->
+        <link rel="stylesheet" href="CSS/style.css">
+
     </head>
 
     <body> <!-- CORPO DO SITE - CONTEÚDO VISÍVEL PARA TODOS-->
 
         <header> <!-- CABEÇALHO DO CORPO DO SITE -->
                 <div>
-                    <a href="index.html">Edu<span>Tech</span></a>
+                    <a href="index.html" class="logo" >Edu<span>Tech</span></a>
                 </div>
                 <nav>
                     <a href="index.html">Início</a>
@@ -24,30 +26,30 @@
 
         <!-- CONTEÚDO DA PÁGINA DO SITE -->
         <main>
-              <section>
+              <section class="hero">
                         <div>
                             <h1>Formação em Tecnologia para o mercado real</h1>
                             <p>Aprenda desenvolvimento web, lógica e banco de dados com aulas práticas</p>
-                            <a href="pages/cursos.html">Ver Cursos</a>
-                            <a href="pages/contato.html">Fale Conosco</a>
+                            <a class="btn-primario" href="pages/cursos.html">Ver Cursos</a>
+                            <a class="btn-secundario" href="pages/contato.html">Fale Conosco</a>
                         </div>   
               </section> 
               
-              <section>
+              <section class="destaques">
                     <div>
                         <h2>Por que estudar na EduTech?</h2>
                         <div>
-                            <article>
+                            <article class="card">
                                 <h3>Projetos Reais</h3>
                                 <p>Você desenvolve sites com base em situações profissionais</p>
                             </article>
 
-                            <article>
+                            <article class="card">
                                 <h3>Material Didático</h3>
                                 <p>Conteúdo e exercícios práticas</p>
                             </article>
 
-                            <article>
+                            <article class="card">
                                 <h3>Suporte do instrutor</h3>
                                 <p>Acompanhamento durante todo processo</p>
                             </article>

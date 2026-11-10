@@ -1,0 +1,117 @@
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+    color:black;
+    background-color: white;
+}
+
+h1,h2,h3 {
+    color:#1a4db3;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin:10px 0;
+}
+
+header {
+    background-color: #1a4db3;
+    color: white;
+    padding: 20px 0;
+}
+
+footer{
+    color: white;
+    background-color: #1a4db3;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a{
+    color:#ff6a00;
+    text-decoration: none;
+}
+
+/* CHAMAR E CONFIGURAR CLASS CRIADAS NO HTML */
+.logo{
+    text-decoration: none; /* tire o sublinado de link */
+    color: white; /* cor de texto: branco */
+    font-size: 24px;  /* tamanho de letra: 24 pixel */
+    font-weight: bold; /* texto em negrito */
+}
+
+.logo span {
+    color: #ff6a00
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin:0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:#ff6a00
+}
+
+/* SEÇÃO PRINCIPAL DA PÁGINA INÍCIO */
+.hero {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: 36px;
+    color:#1a4db3;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-primario{
+    background-color: #ff6a00;
+    color:#f5f5f5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn-secundario{
+    background-color: #f5f5f5;
+    color:#1a4db3;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid  #1a4db3;
+}
+
+.btn-primario:hover, .btn-secundario:hover{
+    opacity: 0.8; /* TRANSPARENCIA DO BOTÃO */
+}
+
+.destaques {
+    padding: 30px 20px;
+}
+
+.card {
+    background-color: white;
+    margin:12px 0;
+    border:1px solid #dddddd;
+    border-radius: 8px;
+}
+
