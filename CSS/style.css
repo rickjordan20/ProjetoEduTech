@@ -10,18 +10,8 @@ body{
     
 }
 
-h1{
-    color: #1a4db3;
-    text-align: center;
-}
-
-h2{
-    color: #1a4db3;
-    text-align: center;
-}
-
-h3{
-    color: #1a4db3;
+h1,h2,h3{
+    color:#1a4db3;
     text-align: center;
 }
 
