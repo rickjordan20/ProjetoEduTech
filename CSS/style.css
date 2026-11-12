@@ -121,6 +121,7 @@ footer a{
 
 .sobre{
      padding: 30px 20px; 
+     text-align: center;
 }
 
 .valores-lista{ 
@@ -130,6 +131,7 @@ footer a{
 
 .valores-lista li{
      padding: 6px 0;
+     text-align: center;
 }
 
 .curso{
