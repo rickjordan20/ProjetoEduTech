@@ -103,6 +103,7 @@ nav a:hover{
      margin: 12px 0;
      border: 1px solid #dddddd;
      border-radius: 8px;
+     text-align: center;
 }
 
 footer{
