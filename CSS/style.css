@@ -19,9 +19,17 @@ p {
 }
 
 header {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Logo de um canto e menu de outro */
+    align-items: center; /* Alinha os itens no meio na vertical */
     background-color: #1a4db3;
     color: white;
-    padding: 20px 0;
+    padding: 10px 20px;
+}
+
+.menu{
+    display: flex; /*Links ficam em linha */
+    gap:15px; /*Espaço entre os links */
 }
 
 footer{
@@ -63,6 +71,11 @@ nav a {
 
 nav a:hover{
     color:#ff6a00
+}
+
+.ativo {
+   color: darkorange; /* Cor de texto */
+   font-weight: bold;
 }
 
 /* SEÇÃO PRINCIPAL DA PÁGINA INÍCIO */
@@ -118,16 +131,28 @@ nav a:hover{
 
 /* PÁGINA CURSOS */
 .curso {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: 0.2s; /* Hover suave */
     padding: 15px;
     margin:15px;
     border:1px solid #dddddd;
     border-radius: 8px; 
     text-align: center;
 }
+.curso:hover {
+    transform:translateY(-3px); /*Sobe um pouco */
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);/*Projeção de sombra */
+}
 
 .curso img {
-    max-width: 100%;
-    height: auto;
+    width:100%; /* Ocupa toda a largura do card */
+    height: 140px; /* Altura padrão para todas imagens*/
+    object-fit: contain;/*Mostra a imagem INTEIRA */
+    background-color: #ffffff; /*Cor de fundo */
+    border-radius: 6px; /*Bordas arrendodas */
+    margin-top: 10px;/*Margem em cima da imagem */
 }
 
 /* PÁGINA CONTATO */
