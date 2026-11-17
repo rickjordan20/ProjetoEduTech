@@ -1,0 +1,21 @@
+/* SIMULAÇÃO QA — identidade visual básica, sem Flexbox ou Grid */
+/* Base */
+body { margin: 0; font-family: Arial, sans-serif; background-color: #fff8f0; color: #292524; line-height: 1.6; }
+h1, h2, h3 { color: #7c2d12; }
+a { color: #8b3a16; }
+header, footer { background-color: #7c2d12; color: white; padding: 20px; text-align: center; }
+header a, footer a { color: white; margin: 8px; }
+nav a { display: inline-block; padding: 4px; }
+nav a:hover { text-decoration: underline; background-color: #9a3412; }
+a:focus-visible, input:focus-visible, textarea:focus-visible, button:focus-visible { outline: 3px solid #e38a14; outline-offset: 3px; }
+/* Conteúdo e pratos */
+main { max-width: 960px; margin: 24px auto; padding: 20px; }
+section { margin-bottom: 24px; }
+article { padding: 16px; margin-bottom: 16px; border: 1px solid #d6d3d1; border-radius: 8px; background: white; }
+img { max-width: 100%; height: auto; }
+/* Formulários */
+form { max-width: 500px; padding: 20px; background: white; border: 1px solid #d6d3d1; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, textarea { font: inherit; padding: 10px; max-width: 100%; box-sizing: border-box; border: 1px solid #78716c; border-radius: 4px; }
+button { display: block; margin-top: 16px; background: #7c2d12; color: white; padding: 12px 20px; border: 0; border-radius: 6px; cursor: pointer; }
+button:hover { background: #9a3412; }
