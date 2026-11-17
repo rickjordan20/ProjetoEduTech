@@ -1,3 +1,3 @@
 # Sabor da Turma — Simulação QA
 
-Conta de teste Rickson Jordas, Guilda TESTE. Missão 2B: quatro páginas com estrutura HTML, main vazio e navegação. Dificuldade simulada: caminho para Contato no menu do cardápio. Falta completar os testes entre todas as páginas.
+Missão 3B: conteúdo em quatro páginas, navegação relativa corrigida e menu ativo. Header, nav, main e footer preservados; section/article usados na apresentação e nos pratos. Pendência simulada: Bebidas usa div/b em vez de seção com título. Teste realizado nesta rodada: revisão estática dos caminhos e estrutura; falta teste no navegador do restaurante. Rickson Jordas, Guilda TESTE.
