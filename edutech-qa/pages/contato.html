@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contato | EduTech</title>
-</head>
-<body>
-  <!-- Simulação QA: estrutura inicial de um estudante em aprendizagem -->
-  <header>
-    <h1>EduTech</h1>
-    <nav aria-label="Menu principal">
-      <a href="index.html">Início</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="cursos.html">Cursos</a>
-      <a href="contato.html">Contato</a>
-    </nav>
-  </header>
-  <main></main>
-  <footer><p>EduTech — projeto didático de teste</p><a href="contato.html">Contato</a></footer>
-</body>
-</html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>contato | EduTech</title></head>
+<body><!-- Simulação QA de formulários HTML -->
+<header><p>EduTech</p><nav aria-label="Menu principal"><a href="../index.html">Início</a><a href="sobre.html">Sobre</a><a href="cursos.html">Cursos</a><a href="contato.html">Contato</a><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></nav></header>
+<main><section><h1>Fale com a EduTech</h1><p>Envie sua dúvida sobre os cursos. Use dados fictícios.</p>
+<form onsubmit="return false">
+<label for="nome-contato">Nome</label><input id="nome-contato" name="nome" type="text" required>
+<label for="email-contato">E-mail</label><input id="email-contato" name="email" type="email">
+<label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+<button type="submit">Enviar mensagem</button></form><p>Demonstração: a mensagem não será enviada.</p></section></main><footer><p>EduTech — projeto didático</p><a href="contato.html">Contato</a></footer>
+</body></html>
