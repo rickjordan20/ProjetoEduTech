@@ -1,3 +1,3 @@
 # EduTech — Simulação QA
 
-Conta de teste Rickson Jordas. Missão 2A: quatro páginas com cabeçalho, menu, main vazio e rodapé. Dificuldade simulada: retorno à raiz nas páginas internas e identificação do item ativo. Não representa a entrega de um estudante real.
+Missão 3A: páginas Início, Sobre e Cursos, HTML semântico. Caminhos das duas páginas internas corrigidos para ../index.html. Três cursos e cargas horárias incluídos. Pendências simuladas: imagem de Games não adicionada, alt genérico e hierarquia do título desse curso; links de login e detalhes são futuros. Conta Rickson Jordas, sem representar estudante real.
