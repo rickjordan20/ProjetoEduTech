@@ -1,4 +1,6 @@
-/* CONFIGURAÇÕES GERAIS */
+/* CONFIGURAÇÕES GERAIS — Simulação QA 6A */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -18,18 +20,21 @@ p {
     margin:10px 0;
 }
 
-header {
+.topo {
     display: flex; /* Ativa o Flexbox */
     justify-content: space-between; /* Logo de um canto e menu de outro */
-    align-items: center; /* Alinha os itens no meio na vertical */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px; /* Alinha os itens no meio na vertical */
     background-color: #1a4db3;
     color: white;
     padding: 10px 20px;
 }
 
-.menu{
+nav.menu{
     display: flex; /*Links ficam em linha */
-    gap:15px; /*Espaço entre os links */
+    gap:15px;
+    flex-wrap: wrap; /*Espaço entre os links */
 }
 
 footer{
@@ -57,15 +62,15 @@ footer a{
     color: #ff6a00
 }
 
-nav {
+nav.menu {
     text-align: center;
     margin-top: 10px;
 }
 
-nav a {
+nav.menu a {
     color:white;
     text-decoration: none;
-    margin:0 15px;
+    margin:0;
     font-weight: bold;
 }
 
@@ -73,7 +78,8 @@ nav a:hover{
     color:#ff6a00
 }
 
-.ativo {
+nav.menu .ativo {
+   text-decoration: underline;
    color: darkorange; /* Cor de texto */
    font-weight: bold;
 }
@@ -136,10 +142,12 @@ nav a:hover{
     background-color: white;
     transition: 0.2s; /* Hover suave */
     padding: 15px;
-    margin:15px;
+    margin:0;
     border:1px solid #dddddd;
     border-radius: 8px; 
     text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
 .curso:hover {
     transform:translateY(-3px); /*Sobe um pouco */
@@ -181,3 +189,16 @@ button{
 #containerFormContato{
     text-align: center;
 }
+
+/* GRADE DOS CURSOS — tentativa inicial */
+.cursos { padding: 30px 20px; text-align: center; }
+.cursos-grid { display: grid; grid-template-columns: repeat(3, minmax(200px, 1fr)); gap: 15px; align-items: stretch; }
+.curso { box-shadow: 0 3px 8px rgba(0,0,0,.08); }
+.card { box-shadow: 0 3px 8px rgba(0,0,0,.08); }
+.curso:focus-visible, nav.menu a:focus-visible, .btn-primario:focus-visible, .btn-secundario:focus-visible { outline: 3px solid #ff6a00; outline-offset: 3px; }
+/* CONTATO — contexto restrito para preservar login/cadastro */
+.contato { padding: 40px 20px; }
+.contato form { max-width: 500px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+/* RESPONSIVIDADE — primeira tentativa */
+img { max-width: 100%; }
+@media (max-width: 600px) { .topo { flex-direction: column; } nav.menu { justify-content: center; } .hero h1 { font-size: 28px; } }

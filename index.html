@@ -1,24 +1,25 @@
 <!DOCTYPE html> <!-- Específica o Tipo de Documento - HTML 5 -->
 <html lang="pt-BR">
+<!-- Simulação QA de aluno mediano — versão isolada de teste -->
     <head> <!-- CABEÇA DO SITE - CONFIGURAÇÕES E METADADOS-->
         <title>EduTech - Formação em Tecnologia</title> <!--Título que aparece na aba do navegador-->
         <meta charset="UTF-8"> <!--Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width=device-width,initial-scale=1.0"> <!--Adapta o site para o tamanho da tela do dispositivo móvel -->
-        <meta name="description" content="Conheça os cursos da EduTech"> <!--Pequena descrição do site para Navegadores e Compartilhamento-->
+        <meta name="description" content="EduTech: formação prática em tecnologia."> <!--Pequena descrição do site para Navegadores e Compartilhamento-->
         <link rel="stylesheet" href="CSS/style.css"> <!--Linka o código HTML com a página do CSS-->
     </head>
 
     <body> <!-- CORPO DO SITE - CONTEÚDO VISÍVEL PARA TODOS-->
 
-        <header> <!-- CABEÇALHO DO CORPO DO SITE -->
+        <header class="topo"> <!-- CABEÇALHO DO CORPO DO SITE -->
                 <div>
                     <a href="index.html" class="logo" >Edu<span>Tech</span></a>
                 </div>
                 <nav class="menu">
-                    <a href="index.html" class="ativo">Início</a>
-                    <a href="pages/sobre.html">Sobre</a>
-                    <a href="pages/cursos.html">Cursos</a>
-                    <a href="pages/contato.html">Contato</a>
+                    <a href="index.html" class="ativo" aria-current="page">Início</a>
+                    <a href="PAGES/sobre.html">Sobre</a>
+                    <a href="PAGES/cursos.html">Cursos</a>
+                    <a href="PAGES/contato.html">Contato</a>
                 </nav>
          
         </header>
@@ -29,8 +30,8 @@
                         <div>
                             <h1>Formação em Tecnologia para o mercado real</h1>
                             <p>Aprenda desenvolvimento web, lógica e banco de dados com aulas práticas</p>
-                            <a class="btn-primario" href="pages/cursos.html">Ver Cursos</a>
-                            <a class="btn-secundario" href="pages/contato.html">Fale Conosco</a>
+                            <a class="btn-primario" href="PAGES/cursos.html">Ver Cursos</a>
+                            <a class="btn-secundario" href="PAGES/contato.html">Fale Conosco</a>
                         </div>   
               </section> 
               
@@ -62,7 +63,7 @@
 
         <footer> <!-- RODAPÉ DO CORPO DO SITE -->
             <p>2026 EduTech. Todos direitos reservados</p>
-            <p><a href="pages/contato.html">Entre em contato</a></p>
+            <p><a href="PAGES/contato.html">Entre em contato</a></p>
         </footer>
 
     </body>
