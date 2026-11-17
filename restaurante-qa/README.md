@@ -1,7 +1,3 @@
-# Restaurante Sabor da Turma — simulação QA
+# Sabor da Turma — Simulação QA
 
-Projeto de teste da conta Rickson Jordas na guilda TESTE. Simula aprendizagem intermediária; não é entrega de um estudante real.
-
-Responsável inicial: Rickson. Etapa 1C: organizar arquivos e registrar a base do projeto.
-
-Pendências: criar páginas internas, testar caminhos e completar a documentação.
+Conta de teste Rickson Jordas, Guilda TESTE. Missão 2B: quatro páginas com estrutura HTML, main vazio e navegação. Dificuldade simulada: caminho para Contato no menu do cardápio. Falta completar os testes entre todas as páginas.
