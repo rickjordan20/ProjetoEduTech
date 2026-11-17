@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contato | Sabor da Turma</title></head>
-<body>
-<!-- Simulação QA — dados fictícios -->
-<header><p>Sabor da Turma</p><nav aria-label="Menu principal">
-<a href="../index.html">Início</a>
-<a href="sobre.html">Sobre</a>
-<a href="cardapio.html">Cardápio</a>
-<a href="contato.html" aria-current="page">Contato</a>
-</nav></header>
-<main><h1>Contato</h1><section><h2>Fale conosco</h2><p>contato@example.com</p><p>Endereço fictício: Rua da Escola, 100</p></section></main>
-<footer><p>Projeto didático — dados fictícios.</p><a href="contato.html">Contato</a></footer>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>contato | Sabor da Turma</title></head>
+<body><!-- Simulação QA, dados fictícios -->
+<header><p>Sabor da Turma</p><nav aria-label="Menu principal"><a href="../index.html">Início</a><a href="sobre.html">Sobre</a><a href="cardapio.html">Cardápio</a><a href="contato.html">Contato</a><a href="login.html">Login</a><a href="cadastro.html">Cadastro</a></nav></header>
+<main><section><h1>Contato — Sabor da Turma</h1><p>Use dados fictícios.</p><form onsubmit="return false">
+<label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required>
+<label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required>
+<label for="assunto">Assunto</label><input id="assunto" name="assunto" type="text" required>
+<label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" required></textarea>
+<button type="submit">Enviar</button></form><p>Demonstração: não envia mensagens.</p></section></main><footer><p>Projeto didático de teste</p><a href="contato.html">Contato</a></footer>
 </body></html>
