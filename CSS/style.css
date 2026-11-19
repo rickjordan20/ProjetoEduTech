@@ -178,6 +178,33 @@ button{
     cursor:pointer;
 }
 
-#containerFormContato{
+.contato{
     text-align: center;
 }
+
+.contatoForm {
+    max-width: 500px;  /* Pode ocupar até 500px do container */
+    margin:0 auto; /* Sem margin - auto ajustável */
+    display:flex; /* Ativa o Flexbox no container do form */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    gap: 10px; /* Espaço de 10px entre os elementos do form */
+}
+
+/* PÁGINAS DE LOGIN E CADASTRO */
+.cadastro, .login{
+    padding: 40px 20px;
+}
+
+.loginForm,.cadastroForm {
+    max-width: 500px;
+    margin:0 auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.234);
+    gap: 10px;
+}
+
+
