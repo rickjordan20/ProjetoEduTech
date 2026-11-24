@@ -29,32 +29,11 @@
               <section class="cursos">
                     <h2>Nossos Cursos</h2>
 
-                <div class="cursos-grid"> <!-- Container que o CSS usa pra montar o grid dos cursos -->
-                    <!-- CARDS DOS CURSOS -->
-                     <a href="PAGES/curso1" class="curso">
-                        <h3>Desenvolvimento WEB</h3>
-                        <img src="../IMAGES/DesenvolvimentoWEB.png" alt="Desenvolvimento WEB">
-                        <p>Aprenda HTML, CSS, JS e práticas modernas
-                            de desenvolvimento.
-                        </p>
-                        <strong>CH:</strong> 40h
-                     </a>
+                    <input id="buscaCursos" placeholder="Buscar cursos...">
 
-                     <a href="PAGES/curso2" class="curso">
-                        <h3>Desenvolvimento WEB</h3>
-                        <img src="../IMAGES/InformáticaBásica.jpg" alt="Informática Básica">
-                        <p>Domine o uso do computador e aplicativos essenciais
-                        </p>
-                        <strong>CH:</strong> 30h
-                     </a>
-
-                     <a href="PAGES/curso3" class="curso">
-                        <h3>Jogos Digitais</h3>
-                        <img src="../IMAGES/JogosDigitais.jpg" alt="Jogos Digitais">
-                        <p>Aprenda a desenvolver jogos digitais desde o design até a programação.
-                        </p>
-                        <strong>CH:</strong> 60h
-                     </a>
+                <div class="cursos-grid" id="listaCursos"> <!-- Container que o CSS usa pra montar o grid dos cursos -->
+                    <!-- O cursos.js VAI CONSTRUIR OS CARDS DOS CURSOS AQUI -->
+                     
                 </div>
               </section>
             
@@ -66,7 +45,8 @@
             <p>2026 EduTech. Todos direitos reservados</p>
             <p><a href="contato.html">Entre em contato</a></p>
         </footer>
-
+    
+    <script src="../JS/cursos.js"></script>
     </body>
 
 </html>
