@@ -140,6 +140,8 @@ nav a:hover{
     border:1px solid #dddddd;
     border-radius: 8px; 
     text-align: center;
+    text-decoration: none;
+    color:black;
 }
 .curso:hover {
     transform:translateY(-3px); /*Sobe um pouco */
