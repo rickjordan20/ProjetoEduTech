@@ -30,33 +30,10 @@
               <section class="cursos">
                     <h2>Nossos Cursos</h2>
 
-                <div class="cursos-grid"> <!-- Container que o CSS usa pra montar o grid dos cursos -->
-                    <!-- CARDS DOS CURSOS -->
-                     <a href="contato.html" class="curso">
-                        <h3>Desenvolvimento WEB</h3>
-                        <img src="../IMAGES/DesenvolvimentoWEB.png" alt="Desenvolvimento WEB">
-                        <p>Aprenda HTML, CSS, JS e práticas modernas
-                            de desenvolvimento.
-                        </p>
-                        <strong>CH:</strong> 40h
-                     </a>
-
-                     <a href="contato.html" class="curso">
-                        <h3>Desenvolvimento WEB</h3>
-                        <img src="../IMAGES/InformáticaBásica.jpg" alt="Informática Básica">
-                        <p>Domine o uso do computador e aplicativos essenciais
-                        </p>
-                        <strong>CH:</strong> 30h
-                     </a>
-
-                     <a href="PAGES/curso3" class="curso">
-                        <h3>Jogos Digitais</h3>
-                        <img src="../IMAGES/JogosDigitais.jpg" alt="Jogos Digitais">
-                        <p>Aprenda a desenvolver jogos digitais desde o design até a programação.
-                        </p>
-                        <strong>CH:</strong> 60h
-                     </a>
-                </div>
+                <label for="busca">Buscar curso</label>
+<input id="busca" type="search" disabled>
+<p id="resultado" role="status"></p>
+<div id="lista" class="cursos-grid"></div>
               </section>
             
         </main>
@@ -69,6 +46,7 @@
         </footer>
 
     <script src="../JS/cursos.js" defer></script>
-    </body>
+    <script src="../JS/catalogo.js" defer></script>
+</body>
 
 </html>
