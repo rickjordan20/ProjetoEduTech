@@ -1,4 +1,4 @@
-/* SIMULAÇÃO QA — identidade visual básica, sem Flexbox ou Grid */
+/* SIMULAÇÃO QA — identidade visual e responsividade */
 /* Base */
 body { margin: 0; font-family: Arial, sans-serif; background-color: #fff8f0; color: #292524; line-height: 1.6; }
 h1, h2, h3 { color: #7c2d12; }
@@ -19,3 +19,17 @@ label { display: block; margin-top: 12px; font-weight: bold; }
 input, textarea { font: inherit; padding: 10px; max-width: 100%; box-sizing: border-box; border: 1px solid #78716c; border-radius: 4px; }
 button { display: block; margin-top: 16px; background: #7c2d12; color: white; padding: 12px 20px; border: 0; border-radius: 6px; cursor: pointer; }
 button:hover { background: #9a3412; }
+
+*, *::before, *::after { box-sizing: border-box; }
+header nav { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; }
+header nav a { margin: 0; }
+nav a[aria-current="page"] { text-decoration: underline; font-weight: bold; }
+form { width: 100%; margin-inline: auto; }
+form input, form textarea { width: 100%; }
+[aria-label="Pratos principais"] { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 1rem; }
+[aria-label="Pratos principais"] article { margin-bottom: 0; }
+@media (max-width: 600px) {
+  header nav { flex-direction: column; align-items: center; }
+  main { padding: 12px; }
+  [aria-label="Pratos principais"] { grid-template-columns: 1fr; }
+}
