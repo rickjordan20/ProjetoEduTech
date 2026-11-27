@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Desenvolvimento Web",
+    "categoria": "Iniciante",
+    "descricao": "Aprenda HTML, CSS e JavaScript.",
+    "valor": "40h"
+  },
+  {
+    "nome": "Informática Básica",
+    "categoria": "Iniciante",
+    "descricao": "Domine os aplicativos essenciais.",
+    "valor": "30h"
+  },
+  {
+    "nome": "Jogos Digitais",
+    "categoria": "Técnico",
+    "descricao": "Aprenda do design à programação.",
+    "valor": "60h"
+  }
+]
