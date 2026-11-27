@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Prato da casa",
+    "categoria": "Prato principal",
+    "descricao": "Arroz, feijão, salada e frango.",
+    "valor": "R$ 25,00"
+  },
+  {
+    "nome": "Opção vegetariana",
+    "categoria": "Prato principal",
+    "descricao": "Legumes, arroz e salada.",
+    "valor": "R$ 22,00"
+  },
+  {
+    "nome": "Massa ao molho",
+    "categoria": "Prato principal",
+    "descricao": "Macarrão com molho de tomate e ervas.",
+    "valor": "R$ 24,00"
+  },
+  {
+    "nome": "Suco natural",
+    "categoria": "Bebidas",
+    "descricao": "Suco natural.",
+    "valor": "R$ 8,00"
+  }
+]
